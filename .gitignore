@@ -35,3 +35,15 @@ logs/
 # Claude session cache (keep memory, ignore caches)
 .claude/cache/
 .claude/sessions/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Generated audio cues (regenerate with scripts/generate-sounds.py)
+assets/*.mp3
+assets/*.wav
+!assets/.gitkeep

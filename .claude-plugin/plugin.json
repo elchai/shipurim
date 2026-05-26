@@ -1,0 +1,14 @@
+{
+  "name": "shipurim-live-transcribe",
+  "version": "0.1.0",
+  "description": "Windows-native real-time microphone transcription for Claude Code using ElevenLabs Scribe v2 Realtime. Streams committed transcript to %TEMP%; Claude reads it on demand mid-session.",
+  "author": {
+    "name": "Elchai Fine",
+    "url": "https://github.com/elchai"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "credits": {
+    "based_on": "aviz85/claude-skills-library/plugins/live-transcribe (MIT)"
+  }
+}
