@@ -1,0 +1,37 @@
+﻿# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json.bak
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Logs
+*.log
+logs/
+
+# Claude session cache (keep memory, ignore caches)
+.claude/cache/
+.claude/sessions/
