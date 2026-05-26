@@ -34,6 +34,9 @@ if sys.platform == "win32":
         pass
 
 # --- Optional audio playback (pygame.mixer). Degrades to silent if unavailable. ---
+# Suppress pygame's startup banner BEFORE importing — otherwise it prints to stdout
+# and pushes the JSON startup record below line 1, breaking the skill's parser.
+os.environ.setdefault("PYGAME_HIDE_SUPPORT_PROMPT", "hide")
 try:
     import pygame
     pygame.mixer.init()

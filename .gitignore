@@ -10,6 +10,9 @@ package-lock.json.bak
 .env.*.local
 *.key
 *.pem
+*-token.txt
+*-token
+shipurim-token.txt
 
 # OS
 .DS_Store
