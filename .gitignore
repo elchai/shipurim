@@ -50,3 +50,11 @@ venv/
 assets/*.mp3
 assets/*.wav
 !assets/.gitkeep
+
+# OpenWolf — keep structure (hooks, config, learned preferences), ignore ephemeral state
+.wolf/memory.md
+.wolf/token-ledger.json
+.wolf/cron-state.json
+.wolf/suggestions.json
+.wolf/designqc-report.json
+.wolf/backups/
